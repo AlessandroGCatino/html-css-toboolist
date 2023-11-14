@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -12,11 +13,17 @@ body{
 header{
     background-color: white;
     padding: 10px;
+    height: 75px;
+}
+
+img{
+    display: inline;
+    vertical-align: middle;
 }
 
 h1{
-    display: inline-block;
-    line-height: 10px;
+    display: inline;
+    vertical-align: middle;
 }
 
 main{
