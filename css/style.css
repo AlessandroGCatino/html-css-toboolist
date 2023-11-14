@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8f9
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+}
+
+h1{
+    display: inline-block;
+    line-height: 10px;
+}
+
+main{
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+}
+
+section>button{
+    padding: 10px 15px;
+    border-radius: 10px;
+
+}
+section button:first-child{
+    background-color: #47adf1;
+    border-color: white;
+    color: white;
+    margin: 15px 5px 15px 50px;
+}
+section button:last-child{
+    background-color: white;
+    border: 2px solid grey;
+    color: grey;
+}
